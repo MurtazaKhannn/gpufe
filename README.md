@@ -39,3 +39,14 @@
 docker-compose up --build
 
 Access the app at http://localhost:3000.
+
+## Usage
+1. Input Workload Details:
+Select model type, dataset size, and budget.
+2. View Recommendations:
+Compare GPUs by cost/performance.
+Click "Explain" for AI-generated insights.
+
+## License
+MIT License. See LICENSE.
+
