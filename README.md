@@ -50,3 +50,5 @@ Click "Explain" for AI-generated insights.
 ## License
 MIT License. See LICENSE.
 
+## Credits
+Built for AceCloud RTDS Hackathon 2025.
