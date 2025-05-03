@@ -29,3 +29,9 @@
    ```bash
    git clone https://github.com/your-username/gpu-optimizer.git
    cd gpu-optimizer
+
+## Set up environment variables:
+
+1. Create .env files for frontend/backend (see .env.example).
+2. Add AceCloud API key and Gemini API key (if using AI).
+   
