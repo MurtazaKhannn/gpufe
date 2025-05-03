@@ -47,6 +47,11 @@ Select model type, dataset size, and budget.
 Compare GPUs by cost/performance.
 Click "Explain" for AI-generated insights.
 
+### **Summary and Highlights**:
+1. **Modular Structure**: Clear sections for setup, usage, and customization.
+2. **AI/ML Transparency**: Explains how Gemini/RAG works without exposing sensitive data.
+3. **Visual Cues**: Icons (⚡, 🤖) and intuitive UI to improve readability. 
+
 ## License
 MIT License. See LICENSE.
 
