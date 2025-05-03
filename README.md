@@ -17,8 +17,8 @@
 | Category       | Technologies                                                                 |
 |----------------|-----------------------------------------------------------------------------|
 | **Frontend**   | React.js/Next.js, TypeScript, Tailwind CSS, Chart.js                        |
-| **Backend**    | Node.js (Express/NestJS) or Python (FastAPI/Flask), Redis (caching)         |
-| **AI/ML**      | Google Gemini API, LangChain, ChromaDB (RAG)                                |
+| **Backend**    | Node.js (Express)        |
+| **AI/ML**      | Google Gemini API, LangChain, LLMs                                |
 | **DevOps**     | Docker, GitHub Actions (CI/CD)                                              |
 | **Testing**    | Jest (backend), Cypress (frontend)                                          |
 
