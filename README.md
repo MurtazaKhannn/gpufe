@@ -27,9 +27,8 @@
 ## 📦 **Installation**
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/your-username/gpu-optimizer.git
-   cd gpu-optimizer
-
+   git clone https://github.com/your-username/gpufe.git
+   cd gpufe
 ## Set up environment variables:
 
 1. Create .env files for frontend/backend (see .env.example).
