@@ -19,28 +19,18 @@ export const UserProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [recommendedGPUs, setRecommendedGPUs] = useState<GPUInstance[]>([]);
   const [selectedGPUs, setSelectedGPUs] = useState<GPUInstance[]>([]);
 
-  const hasFetchedData = useRef(false);
+  // const hasFetchedData = useRef(false);
 
   const userInput = {
-    country: "india",
-    operating_system: "windows",
-    resource_class: "a100",
-    resource_name: "W.N.A100.96",
-    vcpus: 16,
-    ram: 96,
-    price_per_hour: 3.42,
-    price_per_month: 1563,
-    price_per_spot: 2.394,
-    currency: "USD",
-    is_gpu: 1,
-    is_spot: 0,
-    resource: "instances",
-    resource_type: "gpu",
-    region: "mumbai",
-    flavor_id: "773b990d-6c7e-41e7-a40d-601bbbcc6373",
-    gpu_description: "1x A100-80GB",
-    is_public: 1
-  };
+    "country": "india",
+    "operatingSystem": "windows",
+    "price_per_spot": 3.90,
+    "price_per_hour": 2.8,
+    "price_per_month": 4.0,
+    "Scalable": 1,
+    "activeUsers": 3,
+    "region": "mumbai"
+  }
 
   // Fetch the GPU data
   const fetchGPUData = async () => {
@@ -53,12 +43,17 @@ export const UserProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         body: JSON.stringify(preferences),
       });
 
+      console.log("preferences" , preferences);
+      
+
+
+
       // console.log(response);
       
 
       if (response.ok) {
         const data = await response.json();
-        // console.log(data);
+        console.log("data" , data);
         
         setRecommendedGPUs(data);
         // console.log(recommendedGPUs);
