@@ -34,4 +34,8 @@
 
 1. Create .env files for frontend/backend (see .env.example).
 2. Add AceCloud API key and Gemini API key (if using AI).
-   
+
+## Run with Docker:
+docker-compose up --build
+
+Access the app at http://localhost:3000.
